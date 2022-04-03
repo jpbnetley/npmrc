@@ -8,4 +8,4 @@ ___
 
 ### Execution
 Then, run the following in your terminal.  
- ` npx github:@jpbnetley/fullfacing-npmrc`
+ ` npx github:@jpbnetley/npmrc`
