@@ -1,4 +1,4 @@
-# Full facing npmrc
+# Full Facing npmrc
 > Generates a .npmrc file for the [Full Facing](https://github.com/fullfacing) organisation 
 ___
 ## How to use
