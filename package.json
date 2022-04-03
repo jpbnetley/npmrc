@@ -1,0 +1,33 @@
+{
+  "name": "@jpbnetley/fullfacing-npmrc",
+  "version": "0.0.0-dev",
+  "description": "Generates a .npmrc file for the Full Facing organisation",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "bin": "bin/main.js",
+  "scripts": {
+    "nodemon": "nodemon",
+    "start": "npm run nodemon  bin/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpbnetley/fullfacing-npmrc.git"
+  },
+  "keywords": [],
+  "author": "Jonathan Netley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpbnetley/fullfacing-npmrc/issues"
+  },
+  "homepage": "https://github.com/jpbnetley/fullfacing-npmrc#readme",
+  "devDependencies": {
+    "install": "^0.13.0",
+    "nodemon": "^2.0.15",
+    "npm": "^8.5.5"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
