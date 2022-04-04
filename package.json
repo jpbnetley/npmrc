@@ -23,6 +23,9 @@
   },
   "homepage": "https://github.com/fullfacing/npmrc#readme",
   "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "husky": "^7.0.4",
     "install": "^0.13.0",
     "nodemon": "^2.0.15",
     "npm": "^8.5.5"
