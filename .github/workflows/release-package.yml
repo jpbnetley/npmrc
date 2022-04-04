@@ -20,6 +20,7 @@ jobs:
           persist-credentials: false
 
       - name: Semantic Release
+        if: github.ref == 'refs/heads/main' && github.repository_owner == 'fullfacing'
         uses: cycjimmy/semantic-release-action@v3
         id: semantic
         with:
